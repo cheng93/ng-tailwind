@@ -3,7 +3,7 @@ When this is uncomment, it builds, but styles aren't applied
 When commented out, you get 
     Cannot apply unknown utility class `text-3xl`. Are you using CSS modules or similar and missing `@reference`? https://tailwindcss.com/docs/functions-and-directives#reference-directive [plugin angular-css]
 */
-@reference "tailwindcss"
+@reference "tailwindcss";
 
 .apply {
   @apply text-3xl font-bold underline;
